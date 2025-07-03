@@ -1,16 +1,1 @@
-# bloc_sample
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Flutter e-commerce application demonstrates state management using the BLoC (Business Logic Component) pattern to handle product listings and cart functionality. The app features two main screens: a ProductListScreen displaying available items and a CartScreen showing selected products, with all state changes managed through stream-based BLoCs. The architecture cleanly separates business logic (CartBloc, ProductBloc), data services (CartService, ProductService), and UI components while maintaining a reactive flow of data. Key features include adding/removing products from cart, real-time updates via StreamBuilders, and navigation between screens. The implementation uses Dart streams for state management without external packages, making it a lightweight yet powerful demonstration of core Flutter concepts including reactive programming, widget composition, and Material Design.
